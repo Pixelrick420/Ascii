@@ -58,14 +58,11 @@ The installation process varies depending on your preferred method and operating
 ### Direct Installation
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ascii-converter.git
-cd ascii-converter
+git clone https://github.com/Pixelrick420/Ascii.git
+cd Ascii
 
-# Install dependencies
-pip install -r requirements.txt
-
-# Verify installation
-python ascii.py --help
+# Run installation
+python ascii.py
 ```
 
 ### Virtual Environment (Recommended)
