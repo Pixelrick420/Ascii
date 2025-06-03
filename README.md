@@ -242,6 +242,7 @@ Color rendering utilizes ANSI escape sequence generation for true color terminal
 - Video playback sequence showing frame progression
 - Terminal window with optimized font sizing
 
+![image](https://github.com/user-attachments/assets/54c14378-1a53-4f1c-ba07-87e6439964e0)
 
 ### Cross-Platform Compatibility
 - Windows Terminal with ASCII output
