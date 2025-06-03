@@ -34,15 +34,18 @@ def launch(scriptPath, mode, filePath, cols, lines, color=True):
     system = platform.system().lower()
     fontCmds = getFontSizeCommands(system)
     
-    base_command = f'python3 "{scriptPath}" "{mode}" "{filePath}"{isColor}'
+
+    pythonAlias = sys.executable
+    baseCmd = f'"{pythonAlias}" "{scriptPath}" "{mode}" "{filePath}"{isColor}'
+
     
-    print(f"Launching command: {base_command}")
+    print(f"Launching command: {baseCmd}")
     print(f"System: {system}")
     
     if system == "windows":
-        return launchWindows(base_command, fontCmds)
+        return launchWindows(baseCmd, fontCmds)
     elif system == "linux":
-        return launchLinux(base_command, fontCmds)
+        return launchLinux(baseCmd, fontCmds)
     else:
         print(f"Unsupported operating system: {system}")
         return runDirectly(scriptPath, mode, filePath, color)
