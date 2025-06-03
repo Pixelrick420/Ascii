@@ -62,8 +62,6 @@ def launchWindows(command, fontCmds):
                     "wt",
                     "--profile", "Command Prompt",
                     "--startingDirectory", os.getcwd(),
-                    "--fontSize", "8",
-                    "--fontFace", "Consolas",
                     "cmd", "/k"
                 ]
                 fullCmd = f"{fontCmds.get('cmd', '')}{command}"
