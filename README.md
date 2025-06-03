@@ -1,7 +1,7 @@
 # ASCII Image/Video Converter
 
 [![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org/downloads/)
-[[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-lightgrey.svg)](https://github.com)]
+[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-lightgrey.svg)](https://github.com)
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.0+-red.svg)](https://opencv.org/)
 [![PIL](https://img.shields.io/badge/Pillow-8.0+-orange.svg)](https://pillow.readthedocs.io/)
 
