@@ -101,7 +101,7 @@ sudo dnf install python3-pillow python3-opencv python3-numpy tkinter
 The application operates in two distinct modes: a graphical user interface for interactive use and a command-line interface for automation and scripting purposes. Both interfaces provide access to the full feature set while catering to different user preferences and use cases.
 
 ### GUI Application
-Launch the graphical interface for easy file selection and conversion by running `python main.py`. The GUI provides an intuitive interface with file browser functionality that automatically filters files based on supported formats. Users can toggle color mode support and view real-time system information including platform details and optimization tips.
+Launch the graphical interface for easy file selection and conversion by running `python app.py`. The GUI provides an intuitive interface with file browser functionality that automatically filters files based on supported formats. Users can toggle color mode support and view real-time system information including platform details and optimization tips.
 
 The interface displays platform-specific usage instructions and provides one-click conversion capabilities with automatic terminal spawning. This approach ensures that the ASCII output appears in an optimally configured terminal window without requiring manual setup.
 
@@ -255,7 +255,7 @@ Contributions to the ASCII Image/Video Converter project are welcome and encoura
 ```bash
 # Fork and clone the repository
 git clone https://github.com/yourusername/ascii-converter.git
-cd ascii-converter
+cd Ascii
 
 # Create development environment
 python -m venv dev_env
