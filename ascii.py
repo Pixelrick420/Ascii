@@ -8,7 +8,7 @@ import os
 
 MAX_WIDTH  = 200
 MAX_HEIGHT = 100
-CHARS = "@#Woa+=:~-\" `"
+CHARS = "`'\"-~:;=+aow#W@"
 
 
 def rgbToAnsi(r, g, b):
