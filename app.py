@@ -223,11 +223,11 @@ def launchCamera(mode, color=True, device=0, fps=15):
 
 def build():
     root = tk.Tk()
-    root.title("ASCII Image/Video/Camera Converter")
+    root.title("ASCII Media Converter")
     root.geometry("500x400")
     root.resizable(False, False)
 
-    title = tk.Label(root, text="ASCII Converter Suite", font=("Arial", 16, "bold"))
+    title = tk.Label(root, text="ASCII Converter", font=("Arial", 16, "bold"))
     title.pack(pady=10)
 
     sysLabel = tk.Label(root, text=f"System: {platform.system()} {platform.release()}", 
