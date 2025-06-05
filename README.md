@@ -126,7 +126,7 @@ Camera parameters can be adjusted in `camera_ascii.py`:
 
 ## Screenshots
 
-![GUI Interface](https://github.com/user-attachments/assets/7bd44b7b-31d3-4bff-87a9-8dcda398f067)
+![GUI Interface](https://github.com/user-attachments/assets/a64e9b73-afe8-45b8-a953-c2e4233a2943)
 
 *Main application window with file selection and system information*
 
