@@ -1,4 +1,4 @@
-# ASCII Image/Video/Camera Converter
+# ASCII Media Converter
 
 [![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org/downloads/)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-lightgrey.svg)](https://github.com)
