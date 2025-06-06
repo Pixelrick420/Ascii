@@ -77,7 +77,9 @@ def launchWindows(command, fontCmds):
             
             elif terminal == "powershell":
                 psSetup = fontCmds.get('powershell', '')
-                fullCmd = f"cd '{os.getcwd()}'; {psSetup} {command}"
+                escaped = command.replace("'", "''")  
+                fullCmd = f"cd '{os.getcwd()}'; {psSetup} & cmd /c \"{escaped}\""
+                
                 subprocess.Popen([
                     "powershell",
                     "-NoExit",
@@ -85,6 +87,7 @@ def launchWindows(command, fontCmds):
                 ])
                 print(f"Launched with {name} (console adjusted)")
                 return True
+            
             
             elif terminal == "cmd":
                 modeCmd = fontCmds.get('cmd', '')
