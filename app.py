@@ -76,9 +76,9 @@ def launchWindows(command, fontCmds):
                 return True
             
             elif terminal == "powershell":
-                psSetup = fontCmds.get('powershell', '')
                 escaped = command.replace("'", "''")  
-                fullCmd = f"cd '{os.getcwd()}'; {psSetup} & cmd /c \"{escaped}\""
+                cwd = os.getcwd().replace('"', '\\"')  
+                fullCmd = f'cd "{cwd}"; cmd /c "{escaped}"'
                 
                 subprocess.Popen([
                     "powershell",
