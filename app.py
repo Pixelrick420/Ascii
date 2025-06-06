@@ -82,7 +82,7 @@ def launchWindows(command, fontCmds):
                 
                 subprocess.Popen([
                     "powershell",
-                    "-NoProfile"
+                    "-NoProfile",
                     "-NoExit",
                     "-Command", fullCmd
                 ])
