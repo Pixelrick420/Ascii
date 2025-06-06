@@ -16,7 +16,7 @@ def getFontSizeCommands(system):
     if system == "windows":
         return {
             "wt_profile": '--fontSize=8 --fontFace="Consolas"',
-            "powershell": '[Console]::OutputEncoding = [System.Text.Encoding]::UTF8;',
+            "powershell": '',
             "cmd": '',
         }
     elif system == "linux":
